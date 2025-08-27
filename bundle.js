@@ -1,0 +1,2 @@
+var e=require("chalk"),t=require("react"),r=require("framer");function l(e){return e&&"object"==typeof e&&"default"in e?e:{default:e}}var o=/*#__PURE__*/l(e),a=/*#__PURE__*/l(t);function u(e){var t=o.default.hex(e.color)(e.text);/*#__PURE__*/return a.default.createElement("div",{style:{padding:10,fontFamily:"sans-serif",whiteSpace:"pre-wrap"}},t)}r.addPropertyControls(u,{text:{type:r.ControlType.String,title:"Text",defaultValue:"Hello, Framer!"},color:{type:r.ControlType.Color,title:"Color",defaultValue:"#FF0000"}}),module.exports=u;
+//# sourceMappingURL=bundle.js.map
